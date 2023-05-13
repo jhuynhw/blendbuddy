@@ -2,12 +2,13 @@
 //  ContentView.swift
 //  blendbuddy
 //
-//  Created by Johnathan Huynh on 5/12/23.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var menu = Menu()
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")

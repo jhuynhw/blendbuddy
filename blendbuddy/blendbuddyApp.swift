@@ -1,8 +1,7 @@
-//
+ //
 //  blendbuddyApp.swift
 //  blendbuddy
 //
-//  Created by Johnathan Huynh on 5/12/23.
 //
 
 import SwiftUI
