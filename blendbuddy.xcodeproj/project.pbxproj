@@ -37,6 +37,7 @@
 		EEAB293C2A0F45A8008C1B0D = {
 			isa = PBXGroup;
 			children = (
+				EEAB29562A0F45E9008C1B0D /* README.md */,
 				EEAB29472A0F45A8008C1B0D /* blendbuddy */,
 				EEAB29462A0F45A8008C1B0D /* Products */,
 			);
@@ -57,7 +58,6 @@
 				EEAB294A2A0F45A8008C1B0D /* ContentView.swift */,
 				EEAB294C2A0F45A8008C1B0D /* Assets.xcassets */,
 				EEAB294E2A0F45A8008C1B0D /* Preview Content */,
-				EEAB29562A0F45E9008C1B0D /* README.md */,
 			);
 			path = blendbuddy;
 			sourceTree = "<group>";
