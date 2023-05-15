@@ -51,7 +51,6 @@
 		EEAB293C2A0F45A8008C1B0D = {
 			isa = PBXGroup;
 			children = (
-				EEF153112A1246E700B80823 /* ConfigurationOption.swift */,
 				EEAB29562A0F45E9008C1B0D /* README.md */,
 				EEAB29472A0F45A8008C1B0D /* blendbuddy */,
 				EEAB29462A0F45A8008C1B0D /* Products */,
@@ -69,6 +68,7 @@
 		EEAB29472A0F45A8008C1B0D /* blendbuddy */ = {
 			isa = PBXGroup;
 			children = (
+				EEF153112A1246E700B80823 /* ConfigurationOption.swift */,
 				EEAB29482A0F45A8008C1B0D /* blendbuddyApp.swift */,
 				EEAB295A2A0F5603008C1B0D /* Drink.swift */,
 				EEAB295E2A0F57CD008C1B0D /* MenuSection.swift */,
