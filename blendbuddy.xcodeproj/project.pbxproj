@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		EEAB29492A0F45A8008C1B0D /* blendbuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB29482A0F45A8008C1B0D /* blendbuddyApp.swift */; };
 		EEAB294B2A0F45A8008C1B0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB294A2A0F45A8008C1B0D /* ContentView.swift */; };
-		EEAB294D2A0F45A8008C1B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAB294C2A0F45A8008C1B0D /* Assets.xcassets */; };
 		EEAB29502A0F45A8008C1B0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAB294F2A0F45A8008C1B0D /* Preview Assets.xcassets */; };
 		EEAB29572A0F45E9008C1B0D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EEAB29562A0F45E9008C1B0D /* README.md */; };
 		EEAB29592A0F4C1F008C1B0D /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = EEAB29582A0F4C1F008C1B0D /* menu.json */; };
@@ -19,13 +18,13 @@
 		EEAB29632A0F5B03008C1B0D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB29622A0F5B03008C1B0D /* MenuView.swift */; };
 		EEAB29652A1232EF008C1B0D /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB29642A1232EF008C1B0D /* CustomizeView.swift */; };
 		EEF153122A1246E700B80823 /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF153112A1246E700B80823 /* ConfigurationOption.swift */; };
+		EEF153182A1251D100B80823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF153172A1251D100B80823 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EEAB29452A0F45A8008C1B0D /* blendbuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blendbuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEAB29482A0F45A8008C1B0D /* blendbuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blendbuddyApp.swift; sourceTree = "<group>"; };
 		EEAB294A2A0F45A8008C1B0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EEAB294C2A0F45A8008C1B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEAB294F2A0F45A8008C1B0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EEAB29562A0F45E9008C1B0D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EEAB29582A0F4C1F008C1B0D /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
@@ -35,6 +34,7 @@
 		EEAB29622A0F5B03008C1B0D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		EEAB29642A1232EF008C1B0D /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
 		EEF153112A1246E700B80823 /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationOption.swift; sourceTree = "<group>"; };
+		EEF153172A1251D100B80823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				EEAB29622A0F5B03008C1B0D /* MenuView.swift */,
 				EEAB29642A1232EF008C1B0D /* CustomizeView.swift */,
 				EEAB29582A0F4C1F008C1B0D /* menu.json */,
-				EEAB294C2A0F45A8008C1B0D /* Assets.xcassets */,
+				EEF153172A1251D100B80823 /* Assets.xcassets */,
 				EEAB294E2A0F45A8008C1B0D /* Preview Content */,
 			);
 			path = blendbuddy;
@@ -151,8 +151,8 @@
 			files = (
 				EEAB29572A0F45E9008C1B0D /* README.md in Resources */,
 				EEAB29502A0F45A8008C1B0D /* Preview Assets.xcassets in Resources */,
+				EEF153182A1251D100B80823 /* Assets.xcassets in Resources */,
 				EEAB29592A0F4C1F008C1B0D /* menu.json in Resources */,
-				EEAB294D2A0F45A8008C1B0D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
