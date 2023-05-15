@@ -20,7 +20,7 @@ In the home screen, you'll be able to view all the smoothies you've consumed and
 ## Getting Started
 Below are the steps to setting up your project locally. To get a local copy up and running, follow these simple example steps.
 
-## Developers and More Info
+## Developer and More Info
 Johnathan Huynh
 
 Project Link: https://github.com/jhuynhw/blendbuddy
