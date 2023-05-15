@@ -16,15 +16,35 @@ struct MenuView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                LazyVGrid(columns: columns) {
+                LazyVGrid(columns: columns, pinnedViews: .sectionHeaders) {
                     ForEach(menu.sections) { section in
                         Section {
                             ForEach(section.drinks) { drink in
-                                VStack {
-                                    Text(drink.name)
+                                NavigationLink {
+                                    CustomizeView(drink: drink)
                                 }
-                                .padding(.bottom)
+                                label: {
+                                    VStack {
+                                        Image(drink.image)
+                                            .resizable()
+                                            .scaledToFit()
+                                            .cornerRadius(10)
+                                        
+                                        Text(drink.name)
+                                            .font(.system(.body, design: .serif))
+                                    }
+                                    .padding(.bottom)
+                                }
+                                .buttonStyle(.plain)
                             }
+                        }
+                        header: {
+                            Text(section.name)
+                                .font(.system(.title, design:
+                                        .serif))
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .padding([.top, .bottom, .trailing], 5)
+                                .background(.background)
                         }
                     }
                 }

@@ -17,6 +17,7 @@
 		EEAB295F2A0F57CD008C1B0D /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB295E2A0F57CD008C1B0D /* MenuSection.swift */; };
 		EEAB29612A0F5811008C1B0D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB29602A0F5811008C1B0D /* Menu.swift */; };
 		EEAB29632A0F5B03008C1B0D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB29622A0F5B03008C1B0D /* MenuView.swift */; };
+		EEAB29652A1232EF008C1B0D /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB29642A1232EF008C1B0D /* CustomizeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		EEAB295E2A0F57CD008C1B0D /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
 		EEAB29602A0F5811008C1B0D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		EEAB29622A0F5B03008C1B0D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		EEAB29642A1232EF008C1B0D /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				EEAB29602A0F5811008C1B0D /* Menu.swift */,
 				EEAB294A2A0F45A8008C1B0D /* ContentView.swift */,
 				EEAB29622A0F5B03008C1B0D /* MenuView.swift */,
+				EEAB29642A1232EF008C1B0D /* CustomizeView.swift */,
 				EEAB29582A0F4C1F008C1B0D /* menu.json */,
 				EEAB294C2A0F45A8008C1B0D /* Assets.xcassets */,
 				EEAB294E2A0F45A8008C1B0D /* Preview Content */,
@@ -162,6 +165,7 @@
 				EEAB295B2A0F5603008C1B0D /* Drink.swift in Sources */,
 				EEAB295F2A0F57CD008C1B0D /* MenuSection.swift in Sources */,
 				EEAB29492A0F45A8008C1B0D /* blendbuddyApp.swift in Sources */,
+				EEAB29652A1232EF008C1B0D /* CustomizeView.swift in Sources */,
 				EEAB29612A0F5811008C1B0D /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

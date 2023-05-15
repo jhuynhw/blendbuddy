@@ -1,0 +1,86 @@
+{
+    "sections": [
+        {
+            "id": "0783BA8E-6C05-4902-9F4F-CA7905295BB7",
+            "name": "Smoothie",
+            "drinks": [
+                {
+                    "id": "3221353D-DFAC-4BD9-8624-D4810A02F285",
+                    "name": "Strawberry Banana",
+                    "sugar": [100, 180, 250],
+                    "servedWithMilk": true,
+                    "baseCalories": 300
+                },
+                {
+                    "id": "B6C978D6-4943-4463-8D43-56571EE50284",
+                    "name": "Mango Pineapple",
+                    "sugar": [80, 150, 220],
+                    "servedWithMilk": true,
+                    "baseCalories": 350
+                },
+                {
+                    "id": "1CCF7094-D58D-4A09-B15B-AD579603B9F9",
+                    "name": "Peach Passion",
+                    "sugar": [100, 180, 250],
+                    "servedWithMilk": true,
+                    "baseCalories": 375
+                },
+                {
+                    "id": "2DA502E1-06C1-4F9C-97B4-74BECA5C154A",
+                    "name": "Lychee",
+                    "sugar": [100, 180, 250],
+                    "servedWithMilk": true,
+                    "baseCalories": 275
+                },
+                {
+                    "id": "33C363E4-C802-4CB3-A045-0FDAB76142D7",
+                    "name": "Green Apple",
+                    "sugar": [60, 120, 200],
+                    "servedWithMilk": true,
+                    "baseCalories": 290
+                },
+                {
+                    "id": "A14567DA-9E62-4740-8352-A4ECA46CA2F7",
+                    "name": "Berry",
+                    "sugar": [100, 180, 250],
+                    "servedWithMilk": true,
+                    "baseCalories": 315
+                }
+            ]
+        },
+    ],
+    "milkOptions": [
+        {
+            "id": "0CB78AB8-9985-4A3A-8D73-ABEDB24CA93C",
+            "name": "Whole",
+            "calories": 50
+        },
+        {
+            "id": "CCFF3135-E3D0-4D19-8622-B5B7B8CCB5C9",
+            "name": "Almond",
+            "calories": 15
+        },
+        {
+            "id": "F5881872-AE68-459A-B31A-F5A19EB141FD",
+            "name": "Oat",
+            "calories": 40
+        },
+    ],
+    "toppingOptions": [
+        {
+            "id": "474F4E1D-1706-4AE4-9A89-EF8D5DF83DFD",
+            "name": "Grinded Nuts",
+            "calories": 110
+        },
+        {
+            "id": "BBB613BE-2EAE-4422-A71E-C4ACEC04C6C9",
+            "name": "Cherry",
+            "calories": 25
+        },
+        {
+            "id": "D6BEB9A7-A16B-4014-985C-CEB44D5D05A3",
+            "name": "Vanilla Ice Cream",
+            "calories": 150
+        }
+    ]
+}
