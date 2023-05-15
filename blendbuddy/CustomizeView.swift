@@ -20,11 +20,29 @@ struct CustomizeView: View {
     let sizeOptions = ["Small", "Medium", "Large"]
     
     var sugar: Int {
-        100
+        var sugarAmount = drink.sugar[size]
+        sugarAmount += (extraSugar * 15)
+        
+        if isZeroSugar {
+            sugarAmount /= 5
+        }
+        
+        return sugarAmount
     }
     
     var calories: Int {
-        100
+        var calorieAmount = drink.baseCalories
+        calorieAmount += extraSugar * 10
+        
+        if drink.smoothieBased {
+            calorieAmount += milk.calories
+        }
+        else {
+            calorieAmount += milk.calories / 8
+        }
+        
+        calorieAmount += topping.calories
+        return calorieAmount * (size + 1)
     }
     
     var body: some View {
@@ -52,13 +70,13 @@ struct CustomizeView: View {
                             .tag(option)
                     }
                 }
-            }
-            
-            if drink.smoothieBased {
-                Picker("Topping", selection: $topping) {
-                    ForEach(menu.toppingOptions) { option in
-                        Text(option.name)
-                            .tag(option)
+                
+                if drink.smoothieBased {
+                    Picker("Topping", selection: $topping) {
+                        ForEach(menu.toppingOptions) { option in
+                            Text(option.name)
+                                .tag(option)
+                        }
                     }
                 }
             }

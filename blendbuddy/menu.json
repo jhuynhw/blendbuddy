@@ -7,7 +7,7 @@
                 {
                     "id": "3221353D-DFAC-4BD9-8624-D4810A02F285",
                     "name": "Strawberry Banana",
-                    "sugar": [100, 180, 250],
+                    "sugar": [15, 35, 60],
                     "smoothieBased": true,
                     "servedWithMilk": true,
                     "baseCalories": 300
@@ -15,7 +15,7 @@
                 {
                     "id": "B6C978D6-4943-4463-8D43-56571EE50284",
                     "name": "Mango Pineapple",
-                    "sugar": [80, 150, 220],
+                    "sugar": [10, 30, 55],
                     "smoothieBased": true,
                     "servedWithMilk": true,
                     "baseCalories": 350
@@ -23,7 +23,7 @@
                 {
                     "id": "1CCF7094-D58D-4A09-B15B-AD579603B9F9",
                     "name": "Peach Passion",
-                    "sugar": [100, 180, 250],
+                    "sugar": [20, 40, 65],
                     "smoothieBased": true,
                     "servedWithMilk": true,
                     "baseCalories": 375
@@ -31,7 +31,7 @@
                 {
                     "id": "2DA502E1-06C1-4F9C-97B4-74BECA5C154A",
                     "name": "Lychee",
-                    "sugar": [100, 180, 250],
+                    "sugar": [10, 30, 55],
                     "smoothieBased": true,
                     "servedWithMilk": true,
                     "baseCalories": 275
@@ -39,7 +39,7 @@
                 {
                     "id": "33C363E4-C802-4CB3-A045-0FDAB76142D7",
                     "name": "Green Apple",
-                    "sugar": [60, 120, 200],
+                    "sugar": [5, 25, 50],
                     "smoothieBased": true,
                     "servedWithMilk": true,
                     "baseCalories": 290
@@ -47,7 +47,7 @@
                 {
                     "id": "A14567DA-9E62-4740-8352-A4ECA46CA2F7",
                     "name": "Berry",
-                    "sugar": [100, 180, 250],
+                    "sugar": [10, 25, 50],
                     "smoothieBased": true,
                     "servedWithMilk": true,
                     "baseCalories": 315
@@ -75,18 +75,23 @@
     "toppingOptions": [
         {
             "id": "474F4E1D-1706-4AE4-9A89-EF8D5DF83DFD",
-            "name": "Honey",
-            "calories": 80
+            "name": "Sliced Bananas",
+            "calories": 100
         },
         {
             "id": "BBB613BE-2EAE-4422-A71E-C4ACEC04C6C9",
-            "name": "Chocolate Drizzle",
-            "calories": 110
+            "name": "Berries",
+            "calories": 85
         },
         {
             "id": "D6BEB9A7-A16B-4014-985C-CEB44D5D05A3",
-            "name": "Vanilla Ice Cream",
-            "calories": 150
+            "name": "Cherry",
+            "calories": 10
+        },
+        {
+            "id": "77A65FF6-35B1-46E2-8D69-71781F1E20FF",
+            "name": "Assorted Fruits",
+            "calories": 110
         }
     ]
 }
