@@ -9,8 +9,13 @@ import SwiftUI
 struct CustomizeView: View {
     let drink: Drink
     
+    @EnvironmentObject var menu: Menu
+    
     @State private var size = 0
     @State private var isZeroSugar = false
+    @State private var extraSugar = 0
+    @State private var milk = ConfigurationOption.none
+    @State private var topping = ConfigurationOption.none
     
     let sizeOptions = ["Small", "Medium", "Large"]
     
@@ -32,7 +37,30 @@ struct CustomizeView: View {
                 }
                 .pickerStyle(.segmented)
                 
+                if drink.smoothieBased {
+                    Stepper("Extra Condensed Milk: \(extraSugar)",
+                            value: $extraSugar, in: 0...8)
+                }
+                
                 Toggle("Zero Sugar", isOn: $isZeroSugar)
+            }
+            
+            Section("Customizations") {
+                Picker("Milk", selection: $milk) {
+                    ForEach(menu.milkOptions) { option in
+                        Text(option.name)
+                            .tag(option)
+                    }
+                }
+            }
+            
+            if drink.smoothieBased {
+                Picker("Topping", selection: $topping) {
+                    ForEach(menu.toppingOptions) { option in
+                        Text(option.name)
+                            .tag(option)
+                    }
+                }
             }
             
             Section("Estimates") {
@@ -48,5 +76,6 @@ struct CustomizeView: View {
 struct CustomizeView_Previews: PreviewProvider {
     static var previews: some View {
         CustomizeView(drink: Drink.example)
+            .environmentObject(Menu()  )
     }
 }

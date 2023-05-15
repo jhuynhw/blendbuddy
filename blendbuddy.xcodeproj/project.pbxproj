@@ -18,6 +18,7 @@
 		EEAB29612A0F5811008C1B0D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB29602A0F5811008C1B0D /* Menu.swift */; };
 		EEAB29632A0F5B03008C1B0D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB29622A0F5B03008C1B0D /* MenuView.swift */; };
 		EEAB29652A1232EF008C1B0D /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB29642A1232EF008C1B0D /* CustomizeView.swift */; };
+		EEF153122A1246E700B80823 /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF153112A1246E700B80823 /* ConfigurationOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		EEAB29602A0F5811008C1B0D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		EEAB29622A0F5B03008C1B0D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		EEAB29642A1232EF008C1B0D /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
+		EEF153112A1246E700B80823 /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 		EEAB293C2A0F45A8008C1B0D = {
 			isa = PBXGroup;
 			children = (
+				EEF153112A1246E700B80823 /* ConfigurationOption.swift */,
 				EEAB29562A0F45E9008C1B0D /* README.md */,
 				EEAB29472A0F45A8008C1B0D /* blendbuddy */,
 				EEAB29462A0F45A8008C1B0D /* Products */,
@@ -165,6 +168,7 @@
 				EEAB295B2A0F5603008C1B0D /* Drink.swift in Sources */,
 				EEAB295F2A0F57CD008C1B0D /* MenuSection.swift in Sources */,
 				EEAB29492A0F45A8008C1B0D /* blendbuddyApp.swift in Sources */,
+				EEF153122A1246E700B80823 /* ConfigurationOption.swift in Sources */,
 				EEAB29652A1232EF008C1B0D /* CustomizeView.swift in Sources */,
 				EEAB29612A0F5811008C1B0D /* Menu.swift in Sources */,
 			);
