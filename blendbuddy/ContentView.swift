@@ -64,7 +64,7 @@ struct ContentView: View {
                                 }
                             }
                             label: {
-                                Label("Duplicate", systemImage: "duplicate")
+                                Label("Duplicate", systemImage: "repeat")
                             }
                             .tint(.blue)
                         }
