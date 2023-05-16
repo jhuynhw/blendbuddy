@@ -47,14 +47,15 @@ struct ContentView: View {
                             
                             Text("\(serving.sugar)g")
                         }
+                        
                         .swipeActions {
                             Button(role: .destructive) {
                                 withAnimation {
-                                    history.delete(serving)
+                                    history.deleteServing(serving)
                                 }
-                                label: {
+                            }
+                            label: {
                                     Label("Delete", systemImage: "trash")
-                                }
                             }
                             
                             Button {
@@ -64,6 +65,7 @@ struct ContentView: View {
                                 label: {
                                     Label("Duplicate", systemImage: "duplicate")
                                 }
+                                .tint(.blue)
                             }
                         }
                     }
