@@ -11,6 +11,14 @@ struct ContentView: View {
     @StateObject var history = History()
     @State private var showingAddScreen = false
     
+    var totalSugar: Int {
+        history.servings.map(\.sugar).reduce(0, +)
+    }
+    
+    var totalCalories: Int {
+        history.servings.map(\.calories).reduce(0, +)
+    }
+    
     var body: some View {
         NavigationView {
             List {
@@ -20,6 +28,11 @@ struct ContentView: View {
                     }
                 }
                 else {
+                    Section("Summary") {
+                        Text("Sugar: \(totalSugar)g")
+                        Text("Calories: \(totalCalories)")
+                    }
+                    
                     ForEach(history.servings) { serving in
                         HStack {
                             VStack(alignment: .leading) {
