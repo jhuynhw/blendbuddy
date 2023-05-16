@@ -33,7 +33,7 @@ struct ContentView: View {
                         Text("Calories: \(totalCalories)")
                     }
                     
-                    ForEach(history.servings) { serving in
+                    ForEach(history.servings, id: \.id) { serving in
                         HStack {
                             VStack(alignment: .leading) {
                                 Text(serving.name)
@@ -62,11 +62,11 @@ struct ContentView: View {
                                 withAnimation {
                                     history.reorderServing(serving)
                                 }
-                                label: {
-                                    Label("Duplicate", systemImage: "duplicate")
-                                }
-                                .tint(.blue)
                             }
+                            label: {
+                                Label("Duplicate", systemImage: "duplicate")
+                            }
+                            .tint(.blue)
                         }
                     }
                 }
