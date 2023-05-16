@@ -10,7 +10,7 @@ Whether you're a health enthusiast, fitness fanatic, or simply looking to improv
 ## Project Details and Features
 This app will allow the user to select from a list of pre-existing smoothies shown by clickable images in a 2-wide grid, with varying fruit combinations.
 
-The user will be able to make limited customizations including but not limited to: size of drink and base liquid. After customizations has been made, you'll be presented with the total calorieZand sugar count of the smoothie.
+The user will be able to make limited customizations including but not limited to: size of drink and base liquid. After customizations has been made, you'll be presented with the total calorie and sugar count of the smoothie.
 
 In the home screen, you'll be able to view all the smoothies you've consumed and its contents, while also being able to make changes to any drinks such as deletion or duplication.
 
