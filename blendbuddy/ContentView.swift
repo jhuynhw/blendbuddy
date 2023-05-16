@@ -47,6 +47,25 @@ struct ContentView: View {
                             
                             Text("\(serving.sugar)g")
                         }
+                        .swipeActions {
+                            Button(role: .destructive) {
+                                withAnimation {
+                                    history.delete(serving)
+                                }
+                                label: {
+                                    Label("Delete", systemImage: "trash")
+                                }
+                            }
+                            
+                            Button {
+                                withAnimation {
+                                    history.reorderServing(serving)
+                                }
+                                label: {
+                                    Label("Duplicate", systemImage: "duplicate")
+                                }
+                            }
+                        }
                     }
                 }
             }
