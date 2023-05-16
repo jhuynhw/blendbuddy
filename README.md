@@ -27,6 +27,12 @@ git clone https://github.com/jhuynhw/blendbuddy
 2. Open repo with SwiftUI compatible IDE
 3. Run project
 
+## Project Preview
+
+<img src="https://github.com/jhuynhw/blendbuddy/assets/64994906/9ef24e2f-3aba-4f81-af9c-9185f1e5fd4a" width="200"></a>
+<img src="https://github.com/jhuynhw/blendbuddy/assets/64994906/e0b80332-3b05-46dc-bdba-85519f46a37b" width="200"></a>
+<img src="https://github.com/jhuynhw/blendbuddy/assets/64994906/535ca343-aad8-42ec-84a1-8c7a35adf145" width="200"></a>
+
 ## Developer and More Info
 Johnathan Huynh
 
