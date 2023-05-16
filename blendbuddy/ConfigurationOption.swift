@@ -2,7 +2,6 @@
 //  ConfigurationOption.swift
 //  blendbuddy
 //
-//  Created by Johnathan Huynh on 5/15/23.
 //
 
 import Foundation
